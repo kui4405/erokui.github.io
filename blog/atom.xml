@@ -64,30 +64,4 @@
     
   </entry>
   
-  <entry>
-    <title>mediainfo</title>
-    <link href="https://erokui.duckdns.org/blog/2017/08/21/mediainfo/"/>
-    <id>https://erokui.duckdns.org/blog/2017/08/21/mediainfo/</id>
-    <published>2017-08-20T16:00:00.000Z</published>
-    <updated>2017-08-23T06:38:42.410Z</updated>
-    
-    <content type="html"><![CDATA[<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mediainfo --inform=&quot;Video;%Height%&quot;</div></pre></td></tr></table></figure>
-<a id="more"></a>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;mediainfo --inform=&amp;quot;Video;%Height%&amp;quot;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-    
-    </summary>
-    
-      <category term="software" scheme="https://erokui.duckdns.org/blog/categories/software/"/>
-    
-    
-      <category term="linux" scheme="https://erokui.duckdns.org/blog/tags/linux/"/>
-    
-      <category term="mediainfo" scheme="https://erokui.duckdns.org/blog/tags/mediainfo/"/>
-    
-  </entry>
-  
 </feed>

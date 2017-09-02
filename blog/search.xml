@@ -15,16 +15,4 @@
         <tag>cangjie-5</tag>
       </tags>
   </entry>
-  <entry>
-    <title><![CDATA[mediainfo]]></title>
-    <url>%2Fblog%2F2017%2F08%2F21%2Fmediainfo%2F</url>
-    <content type="text"><![CDATA[1mediainfo --inform=&quot;Video;%Height%&quot;]]></content>
-      <categories>
-        <category>software</category>
-      </categories>
-      <tags>
-        <tag>linux</tag>
-        <tag>mediainfo</tag>
-      </tags>
-  </entry>
 </search>
