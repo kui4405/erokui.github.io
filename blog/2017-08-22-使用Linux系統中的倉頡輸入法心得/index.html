@@ -78,7 +78,7 @@
 <link href="/blog/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="hackintosh,macOS," />
+  <meta name="keywords" content="linux,fcitx,rime,cangjie-3,cangjie-5," />
 
 
 
@@ -96,20 +96,18 @@
 
 
 
-<meta name="description" content="原來裝的OS（LMDE 2 Betsy）裝太多套件，硬碟一直出現不夠用的訊息，而且用類似auto clean的指令也沒有太多增加空間幫助，當初買128G的SSD，真的是不夠用呀～，加上我又懶的去一個一個找沒用的套件出來再刪掉，就選擇了砍掉重練 重灌系統的打算，加上友人又說『ㄟ～high sierra 要來了耶，要不要試試。』，就想說好阿，以前也有灌過hackintosh，應該很容易吧，結果才發現選">
-<meta name="keywords" content="hackintosh,macOS">
+<meta name="description" content="本身是使用倉頡輸入法來進行中文輸入，在使用微軟系統時，用習慣M$出的新倉頡，不過自從換了Linux後，使用了幾套的輸入法後發現都沒有微軟新倉頡來的那麼好用，新倉頡字碼主要是基於倉頡三代，所以在Linux上裝倉頡都是裝三代，在這邊講講使用上的心得，順便記錄一下怎麼安裝。">
+<meta name="keywords" content="linux,fcitx,rime,cangjie-3,cangjie-5">
 <meta property="og:type" content="article">
-<meta property="og:title" content="macOS 裝機筆記">
-<meta property="og:url" content="https://erokui.duckdns.org/blog/2017/10/08/2017-10-08-macos-裝機筆記/index.html">
+<meta property="og:title" content="使用Linux系統中的倉頡輸入法心得">
+<meta property="og:url" content="https://erokui.duckdns.org/blog/2017-08-22-使用Linux系統中的倉頡輸入法心得/index.html">
 <meta property="og:site_name" content="無何有鏡">
-<meta property="og:description" content="原來裝的OS（LMDE 2 Betsy）裝太多套件，硬碟一直出現不夠用的訊息，而且用類似auto clean的指令也沒有太多增加空間幫助，當初買128G的SSD，真的是不夠用呀～，加上我又懶的去一個一個找沒用的套件出來再刪掉，就選擇了砍掉重練 重灌系統的打算，加上友人又說『ㄟ～high sierra 要來了耶，要不要試試。』，就想說好阿，以前也有灌過hackintosh，應該很容易吧，結果才發現選">
+<meta property="og:description" content="本身是使用倉頡輸入法來進行中文輸入，在使用微軟系統時，用習慣M$出的新倉頡，不過自從換了Linux後，使用了幾套的輸入法後發現都沒有微軟新倉頡來的那麼好用，新倉頡字碼主要是基於倉頡三代，所以在Linux上裝倉頡都是裝三代，在這邊講講使用上的心得，順便記錄一下怎麼安裝。">
 <meta property="og:locale" content="zh-tw">
-<meta property="og:image" content="https://i.imgur.com/mqiIED3.png">
-<meta property="og:updated_time" content="2017-10-07T11:22:49.000Z">
+<meta property="og:updated_time" content="2017-10-07T11:23:20.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="macOS 裝機筆記">
-<meta name="twitter:description" content="原來裝的OS（LMDE 2 Betsy）裝太多套件，硬碟一直出現不夠用的訊息，而且用類似auto clean的指令也沒有太多增加空間幫助，當初買128G的SSD，真的是不夠用呀～，加上我又懶的去一個一個找沒用的套件出來再刪掉，就選擇了砍掉重練 重灌系統的打算，加上友人又說『ㄟ～high sierra 要來了耶，要不要試試。』，就想說好阿，以前也有灌過hackintosh，應該很容易吧，結果才發現選">
-<meta name="twitter:image" content="https://i.imgur.com/mqiIED3.png">
+<meta name="twitter:title" content="使用Linux系統中的倉頡輸入法心得">
+<meta name="twitter:description" content="本身是使用倉頡輸入法來進行中文輸入，在使用微軟系統時，用習慣M$出的新倉頡，不過自從換了Linux後，使用了幾套的輸入法後發現都沒有微軟新倉頡來的那麼好用，新倉頡字碼主要是基於倉頡三代，所以在Linux上裝倉頡都是裝三代，在這邊講講使用上的心得，順便記錄一下怎麼安裝。">
 
 
 
@@ -138,13 +136,13 @@
 
 
 
-  <link rel="canonical" href="https://erokui.duckdns.org/blog/2017/10/08/2017-10-08-macos-裝機筆記/"/>
+  <link rel="canonical" href="https://erokui.duckdns.org/blog/2017-08-22-使用Linux系統中的倉頡輸入法心得/"/>
 
 
 
 
 
-  <title>macOS 裝機筆記 | 無何有鏡</title>
+  <title>使用Linux系統中的倉頡輸入法心得 | 無何有鏡</title>
   
 
 
@@ -315,7 +313,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://erokui.duckdns.org/blog/blog/2017/10/08/2017-10-08-macos-裝機筆記/">
+    <link itemprop="mainEntityOfPage" href="https://erokui.duckdns.org/blog/blog/2017-08-22-使用Linux系統中的倉頡輸入法心得/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Kui">
@@ -332,7 +330,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">macOS 裝機筆記</h1>
+          <h1 class="post-title" itemprop="name headline">使用Linux系統中的倉頡輸入法心得</h1>
         
 
         <div class="post-meta">
@@ -344,8 +342,8 @@
               
                 <span class="post-meta-item-text">發表於</span>
               
-              <time title="創建於" itemprop="dateCreated datePublished" datetime="2017-10-08T00:00:00+08:00">
-                2017-10-08
+              <time title="創建於" itemprop="dateCreated datePublished" datetime="2017-08-22T00:00:00+08:00">
+                2017-08-22
               </time>
             
 
@@ -367,8 +365,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/blog/categories/macOS/" itemprop="url" rel="index">
-                    <span itemprop="name">macOS</span>
+                  <a href="/blog/categories/linux/" itemprop="url" rel="index">
+                    <span itemprop="name">linux</span>
                   </a>
                 </span>
 
@@ -385,9 +383,9 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/blog/2017/10/08/2017-10-08-macos-裝機筆記/#comments" itemprop="discussionUrl">
+                <a href="/blog/2017-08-22-使用Linux系統中的倉頡輸入法心得/#comments" itemprop="discussionUrl">
                   <span class="post-comments-count disqus-comment-count"
-                        data-disqus-identifier="2017/10/08/2017-10-08-macos-裝機筆記/" itemprop="commentCount"></span>
+                        data-disqus-identifier="2017-08-22-使用Linux系統中的倉頡輸入法心得/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -415,11 +413,25 @@
       
 
       
-        <p>原來裝的OS（LMDE 2 Betsy）裝太多套件，硬碟一直出現不夠用的訊息，而且用類似<code>auto clean</code>的指令也沒有太多增加空間幫助，當初買128G的SSD，真的是不夠用呀～，加上我又懶的去一個一個找沒用的套件出來再刪掉，就選擇了<del>砍掉重練</del> 重灌系統的打算，加上友人又說『ㄟ～high sierra 要來了耶，要不要試試。』，就想說好阿，以前也有灌過hackintosh，應該很容易吧，結果才發現選了一個比找沒用套件出來還麻煩的選擇www，真是夠了，真不愧是我。</p>
-<p>想嘗試的碰友，可以先去<a href="https://www.tonymacx86.com/" target="_blank" rel="external">tonymacx86</a>了解一下自己的硬體適不適合裝<del>黑</del>蘋果。</p>
-<p>要安裝hackintosh時發現現在安裝這玩意兒還蠻方便的，都有整合的工具，記得以前都還要自己找驅動阿，可是安裝完才發現，別太相信整合包阿，還是要像以前一樣先找好自己主機板的驅動，再來安裝會比較好，因為我安裝完的時候，沒顯卡、沒網卡、沒音效，簡直是杯具。驅動的部分可以到<a href="https://www.osx86.net/" target="_blank" rel="external">osx86</a>尋找一下自己硬體的型號。</p>
-<p>最後曬一下，而為什麼不是high sierra，又是另一個折騰的故事了。</p>
-<p><img src="https://i.imgur.com/mqiIED3.png" alt=""></p>
+        <p>本身是使用倉頡輸入法來進行中文輸入，在使用微軟系統時，用習慣M$出的新倉頡，不過自從換了Linux後，使用了幾套的輸入法後發現都沒有微軟新倉頡來的那麼好用，新倉頡字碼主要是基於倉頡三代，所以在Linux上裝倉頡都是裝三代，在這邊講講使用上的心得，順便記錄一下怎麼安裝。<br><a id="more"></a><br>ibus和fcitx這兩套是LMDE內建的中文輸入法，所以不用特別安裝，不過倉頡字碼就沒有安裝，得自行打指令安裝，我安裝的是倉頡三代。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo apt-get install fcitx-table-cangjie3</div></pre></td></tr></table></figure>
+<p>安裝完之後重新登入或是重開機後才可以使用。</p>
+<p>在Linux環境有使用過下列輸入法</p>
+<ul>
+<li>ibus</li>
+<li>fcitx</li>
+<li>gcin</li>
+<li>hime</li>
+<li>rime</li>
+</ul>
+<p>而基本在使用上有遇到大同小異的問題點，就是選字上的問題，因為以上輸入法除了rime外，都要靠自已選字，而在fcitx上的倉頡可以透過快捷鍵來更改選字的順序，但還是得自行做選字的動作，<del>還有一個問題就是標點符號，也是以fcitx作範例來說打一個逗號要打<code>zxab</code>就覺得為什麼要這麼累</del>，所以只好繼續尋找著好用的倉頡輸入法。後來發現只要<code>按 Ctrl + .</code> 開啟全形標點符號，也可以快速輸入標點符號。</p>
+<hr>
+<p>後來找到了rime來試用，因為它是基於倉頡五代，所以在使用上有一點點不習慣，還有可以倉頡配拼音一起做輸入的功能還蠻酷的，可以順便練習拼音輸入法。</p>
+<p>而rime的安裝也很簡單，它有提供fctix版本的，而且LMDE也有安裝包，所以也是打打指定安裝就行了。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo apt-get install fcitx-rime</div></pre></td></tr></table></figure></p>
+<p>然後在rime模式下<code>按 F4</code>會出現方案選單，利用數字鍵選擇倉頡。</p>
+<p>目前是倉頡三代和rime都有在做使用，因為有時候突然不知道字怎麼拆的情況下，可以先用倉頡三代擋一下。</p>
+<p>補充：三代跟五代字碼的差別可以參考一下這篇，<a href="https://zh.wikibooks.org/zh-tw/%E5%80%89%E9%A0%A1%E8%BC%B8%E5%85%A5%E6%B3%95/%E4%B8%89%E4%BB%A3%E8%88%87%E4%BA%94%E4%BB%A3%E7%B7%A8%E7%A2%BC%E5%B7%AE%E7%95%B0" target="_blank" rel="external">倉頡輸入法/三代與五代編碼差異</a>。</p>
+<p>同場加映，坑爹的<a href="https://www.ifreesite.com/typing/cangjie-3.htm" target="_blank" rel="external">倉頡三代標點符號</a></p>
 
       
     
@@ -470,7 +482,7 @@
   </li>
   <li class="post-copyright-link">
     <strong>本文連結：</strong>
-    <a href="https://erokui.duckdns.org/blog/2017/10/08/2017-10-08-macos-裝機筆記/" title="macOS 裝機筆記">https://erokui.duckdns.org/blog/2017/10/08/2017-10-08-macos-裝機筆記/</a>
+    <a href="https://erokui.duckdns.org/blog/2017-08-22-使用Linux系統中的倉頡輸入法心得/" title="使用Linux系統中的倉頡輸入法心得">https://erokui.duckdns.org/blog/2017-08-22-使用Linux系統中的倉頡輸入法心得/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版權聲明： </strong>
@@ -485,9 +497,15 @@
       
         <div class="post-tags">
           
-            <a href="/blog/tags/hackintosh/" rel="tag"># hackintosh</a>
+            <a href="/blog/tags/linux/" rel="tag"># linux</a>
           
-            <a href="/blog/tags/macOS/" rel="tag"># macOS</a>
+            <a href="/blog/tags/fcitx/" rel="tag"># fcitx</a>
+          
+            <a href="/blog/tags/rime/" rel="tag"># rime</a>
+          
+            <a href="/blog/tags/cangjie-3/" rel="tag"># cangjie-3</a>
+          
+            <a href="/blog/tags/cangjie-5/" rel="tag"># cangjie-5</a>
           
         </div>
       
@@ -500,15 +518,15 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/blog/2017/08/22/2017-08-22-使用Linux系統中的倉頡輸入法心得/" rel="next" title="使用Linux系統中的倉頡輸入法心得">
-                <i class="fa fa-chevron-left"></i> 使用Linux系統中的倉頡輸入法心得
-              </a>
-            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/blog/2017-10-08-macos-裝機筆記/" rel="prev" title="macOS 裝機筆記">
+                macOS 裝機筆記 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -845,9 +863,9 @@
     
       <script type="text/javascript">
         var disqus_config = function () {
-          this.page.url = 'https://erokui.duckdns.org/blog/2017/10/08/2017-10-08-macos-裝機筆記/';
-          this.page.identifier = '2017/10/08/2017-10-08-macos-裝機筆記/';
-          this.page.title = 'macOS 裝機筆記';
+          this.page.url = 'https://erokui.duckdns.org/blog/2017-08-22-使用Linux系統中的倉頡輸入法心得/';
+          this.page.identifier = '2017-08-22-使用Linux系統中的倉頡輸入法心得/';
+          this.page.title = '使用Linux系統中的倉頡輸入法心得';
         };
         var d = document, s = d.createElement('script');
         s.src = 'https://kui.disqus.com/embed.js';
