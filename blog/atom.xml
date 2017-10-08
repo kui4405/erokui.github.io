@@ -6,7 +6,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://erokui.duckdns.org/blog/"/>
-  <updated>2017-10-07T11:55:54.000Z</updated>
+  <updated>2017-10-08T18:02:59.000Z</updated>
   <id>https://erokui.duckdns.org/blog/</id>
   
   <author>
@@ -17,13 +17,48 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>macOS上安裝Hexo部落格環境</title>
+    <link href="https://erokui.duckdns.org/blog/2017/10/09/install-hexo-on-macOS/"/>
+    <id>https://erokui.duckdns.org/blog/2017/10/09/install-hexo-on-macOS/</id>
+    <published>2017-10-08T16:00:00.000Z</published>
+    <updated>2017-10-08T18:02:59.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>##什麼是Hexo？<br><a href="https://hexo.io/zh-tw/" target="_blank" rel="external">Hexo</a> 是一款網誌框架，使用Markdown來解析文章，可以快速生成靜態網頁的檔案，也就是本站使用的部落格框架。</p><p>##安裝需求</p><ul><li>Homebrew</li><li>Git(Option)</li><li>Node.js<a id="more"></a>##安裝 Homebrew<br><a href="https://brew.sh/" target="_blank" rel="external">Homebrew</a>是一個OSX上一個用戶較多的軟件套件管理器。</li></ul><p>首先打開終端機，並且執行以下指令：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</div></pre></td></tr></table></figure></p><p>再來終端機會自動執行下載及安裝Homebrew的動作，過程中間可能需要按個<code>enter</code>，安裝需要一段時間。</p><p>##安裝 Git<br>再來使用剛剛安裝的Homebrew來安裝Git</p><p>也是使用終端機，執行以下指令：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew install git</div></pre></td></tr></table></figure></p><p>終端機執行Git的下載和安裝。</p><p>##安裝Node.js</p><p><a href="https://nodejs.org/en/" target="_blank" rel="external">Node.js</a>雖然有Homebrew的打包，但是不建議用它來安裝，建議是直接上官網下載來安裝，進入官網後可以下載LTS的版本來安裝。</p><p>##安裝Hexo<br>安裝完上述的套件後就可以來安裝Hexo了，一樣是在終端機上執行指令。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install -g hexo-cli</div></pre></td></tr></table></figure></p><p>這樣就完成了Hexo環境的安裝動作，下一篇再來講寫作環境及產生靜檔網站。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;##什麼是Hexo？&lt;br&gt;&lt;a href=&quot;https://hexo.io/zh-tw/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt; 是一款網誌框架，使用Markdown來解析文章，可以快速生成靜態網頁的檔案，也就是本站使用的部落格框架。&lt;/p&gt;
+&lt;p&gt;##安裝需求&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Homebrew&lt;/li&gt;
+&lt;li&gt;Git(Option)&lt;/li&gt;
+&lt;li&gt;Node.js
+    
+    </summary>
+    
+      <category term="macOS" scheme="https://erokui.duckdns.org/blog/categories/macOS/"/>
+    
+    
+      <category term="macOS" scheme="https://erokui.duckdns.org/blog/tags/macOS/"/>
+    
+      <category term="homebrew" scheme="https://erokui.duckdns.org/blog/tags/homebrew/"/>
+    
+      <category term="hexo" scheme="https://erokui.duckdns.org/blog/tags/hexo/"/>
+    
+      <category term="git" scheme="https://erokui.duckdns.org/blog/tags/git/"/>
+    
+      <category term="nodejs" scheme="https://erokui.duckdns.org/blog/tags/nodejs/"/>
+    
+  </entry>
+  
+  <entry>
     <title>macOS 裝機筆記</title>
     <link href="https://erokui.duckdns.org/blog/2017/10/08/macOS%E8%A3%9D%E6%A9%9F%E7%AD%86%E8%A8%98/"/>
     <id>https://erokui.duckdns.org/blog/2017/10/08/macOS裝機筆記/</id>
     <published>2017-10-07T16:00:00.000Z</published>
-    <updated>2017-10-07T11:55:54.000Z</updated>
+    <updated>2017-10-08T17:18:27.000Z</updated>
     
-    <content type="html"><![CDATA[<p>原來裝的OS（LMDE 2 Betsy）裝太多套件，硬碟一直出現不夠用的訊息，而且用類似<code>auto clean</code>的指令也沒有太多增加空間幫助，當初買128G的SSD，真的是不夠用呀～，加上我又懶的去一個一個找沒用的套件出來再刪掉，就選擇了<del>砍掉重練</del> 重灌系統的打算，加上友人又說『ㄟ～high sierra 要來了耶，要不要試試。』，就想說好阿，以前也有灌過hackintosh，應該很容易吧，結果才發現選了一個比找沒用套件出來還麻煩的選擇www，真是夠了，真不愧是我。<br><a id="more"></a><br>想嘗試的碰友，可以先去<a href="https://www.tonymacx86.com/" target="_blank" rel="external">tonymacx86</a>了解一下自己的硬體適不適合裝<del>黑</del>蘋果。</p><p>要安裝hackintosh時發現現在安裝這玩意兒還蠻方便的，都有整合的工具，記得以前都還要自己找驅動阿，可是安裝完才發現，別太相信整合包阿，還是要像以前一樣先找好自己主機板的驅動，再來安裝會比較好，因為我安裝完的時候，沒顯卡、沒網卡、沒音效，簡直是杯具。驅動的部分可以到<a href="https://www.osx86.net/" target="_blank" rel="external">osx86</a>尋找一下自己硬體的型號。</p><p>最後曬一下，而為什麼不是high sierra，又是另一個折騰的故事了。</p><p><img src="https://i.imgur.com/mqiIED3.png" alt=""></p>]]></content>
+    <content type="html"><![CDATA[<p>原來裝的OS（LMDE 2 Betsy）裝太多套件，硬碟一直出現不夠用的訊息，而且用類似<code>auto clean</code>的指令也沒有太多增加空間幫助，當初買128G的SSD，真的是不夠用呀～，加上我又懶的去一個一個找沒用的套件出來再刪掉，就選擇了<del>砍掉重練</del> 重灌系統的打算，加上友人又說『ㄟ～high sierra 要來了耶，要不要試試。』，就想說好阿，以前也有灌過hackintosh，應該很容易吧，結果才發現選了一個比找沒用套件出來還麻煩的選擇www，真是夠了，真不愧是我。<br><a id="more"></a><br>想嘗試的碰友，可以先去<a href="https://www.tonymacx86.com/" target="_blank" rel="external">tonymacx86</a>了解一下自己的硬體適不適合裝<del>黑</del>蘋果。</p><p>要安裝hackintosh時發現現在安裝這玩意兒還蠻方便的，都有整合的工具，記得以前都還要自己找驅動阿，可是安裝完才發現，別太相信整合包阿，還是要像以前一樣先找好自己主機板的驅動，再來安裝會比較好，因為我安裝完的時候，沒顯卡、沒網卡、沒音效，簡直是杯具。驅動的部分可以到<a href="https://www.osx86.net/" target="_blank" rel="external">osx86</a>尋找一下自己硬體的型號。</p><p>最後曬一下系統資訊，而為什麼不是high sierra，又是另一個折騰的故事了。</p><p><img src="https://i.imgur.com/mqiIED3.png" alt=""></p>]]></content>
     
     <summary type="html">
     
