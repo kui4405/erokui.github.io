@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[macOS上安裝Hexo部落格環境]]></title>
     <url>%2Fblog%2F2017%2F10%2F09%2Finstall-hexo-on-macOS%2F</url>
-    <content type="text"><![CDATA[##什麼是Hexo？Hexo 是一款網誌框架，使用Markdown來解析文章，可以快速生成靜態網頁的檔案，也就是本站使用的部落格框架。 ##安裝需求 Homebrew Git(Option) Node.js ##安裝 HomebrewHomebrew是一個OSX上一個用戶較多的軟件套件管理器。 首先打開終端機，並且執行以下指令：1/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot; 再來終端機會自動執行下載及安裝Homebrew的動作，過程中間可能需要按個enter，安裝需要一段時間。 ##安裝 Git再來使用剛剛安裝的Homebrew來安裝Git 也是使用終端機，執行以下指令：1brew install git 終端機執行Git的下載和安裝。 ##安裝Node.js Node.js雖然有Homebrew的打包，但是不建議用它來安裝，建議是直接上官網下載來安裝，進入官網後可以下載LTS的版本來安裝。 ##安裝Hexo安裝完上述的套件後就可以來安裝Hexo了，一樣是在終端機上執行指令。1npm install -g hexo-cli 這樣就完成了Hexo環境的安裝動作，下一篇再來講寫作環境及產生靜檔網站。]]></content>
+    <content type="text"><![CDATA[什麼是Hexo？Hexo 是一款網誌框架，使用Markdown來解析文章，可以快速生成靜態網頁的檔案，也就是本站使用的部落格框架。 安裝需求 Homebrew Git(Option) Node.js 安裝 HomebrewHomebrew是一個OSX上一個用戶較多的軟件套件管理器。 首先打開終端機，並且執行以下指令：1/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot; 再來終端機會自動執行下載及安裝Homebrew的動作，過程中間可能需要按個enter，安裝需要一段時間。 安裝 Git再來使用剛剛安裝的Homebrew來安裝Git 也是使用終端機，執行以下指令：1brew install git 終端機執行Git的下載和安裝。 安裝Node.jsNode.js雖然有Homebrew的打包，但是不建議用它來安裝，建議是直接上官網下載來安裝，進入官網後可以下載LTS的版本來安裝。 安裝Hexo安裝完上述的套件後就可以來安裝Hexo了，一樣是在終端機上執行指令。1npm install -g hexo-cli 這樣就完成了Hexo環境的安裝動作，下一篇再來講寫作環境及產生靜檔網站。]]></content>
       <categories>
         <category>macOS</category>
       </categories>

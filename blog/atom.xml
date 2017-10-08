@@ -6,7 +6,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://erokui.duckdns.org/blog/"/>
-  <updated>2017-10-08T18:02:59.000Z</updated>
+  <updated>2017-10-08T18:08:20.000Z</updated>
   <id>https://erokui.duckdns.org/blog/</id>
   
   <author>
@@ -21,15 +21,14 @@
     <link href="https://erokui.duckdns.org/blog/2017/10/09/install-hexo-on-macOS/"/>
     <id>https://erokui.duckdns.org/blog/2017/10/09/install-hexo-on-macOS/</id>
     <published>2017-10-08T16:00:00.000Z</published>
-    <updated>2017-10-08T18:02:59.000Z</updated>
+    <updated>2017-10-08T18:08:20.000Z</updated>
     
-    <content type="html"><![CDATA[<p>##什麼是Hexo？<br><a href="https://hexo.io/zh-tw/" target="_blank" rel="external">Hexo</a> 是一款網誌框架，使用Markdown來解析文章，可以快速生成靜態網頁的檔案，也就是本站使用的部落格框架。</p><p>##安裝需求</p><ul><li>Homebrew</li><li>Git(Option)</li><li>Node.js<a id="more"></a>##安裝 Homebrew<br><a href="https://brew.sh/" target="_blank" rel="external">Homebrew</a>是一個OSX上一個用戶較多的軟件套件管理器。</li></ul><p>首先打開終端機，並且執行以下指令：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</div></pre></td></tr></table></figure></p><p>再來終端機會自動執行下載及安裝Homebrew的動作，過程中間可能需要按個<code>enter</code>，安裝需要一段時間。</p><p>##安裝 Git<br>再來使用剛剛安裝的Homebrew來安裝Git</p><p>也是使用終端機，執行以下指令：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew install git</div></pre></td></tr></table></figure></p><p>終端機執行Git的下載和安裝。</p><p>##安裝Node.js</p><p><a href="https://nodejs.org/en/" target="_blank" rel="external">Node.js</a>雖然有Homebrew的打包，但是不建議用它來安裝，建議是直接上官網下載來安裝，進入官網後可以下載LTS的版本來安裝。</p><p>##安裝Hexo<br>安裝完上述的套件後就可以來安裝Hexo了，一樣是在終端機上執行指令。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install -g hexo-cli</div></pre></td></tr></table></figure></p><p>這樣就完成了Hexo環境的安裝動作，下一篇再來講寫作環境及產生靜檔網站。</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="什麼是Hexo？"><a href="#什麼是Hexo？" class="headerlink" title="什麼是Hexo？"></a>什麼是Hexo？</h2><p><a href="https://hexo.io/zh-tw/" target="_blank" rel="external">Hexo</a> 是一款網誌框架，使用Markdown來解析文章，可以快速生成靜態網頁的檔案，也就是本站使用的部落格框架。</p><h2 id="安裝需求"><a href="#安裝需求" class="headerlink" title="安裝需求"></a>安裝需求</h2><ul><li>Homebrew</li><li>Git(Option)</li><li>Node.js<a id="more"></a><h2 id="安裝-Homebrew"><a href="#安裝-Homebrew" class="headerlink" title="安裝 Homebrew"></a>安裝 Homebrew</h2><a href="https://brew.sh/" target="_blank" rel="external">Homebrew</a>是一個OSX上一個用戶較多的軟件套件管理器。</li></ul><p>首先打開終端機，並且執行以下指令：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</div></pre></td></tr></table></figure></p><p>再來終端機會自動執行下載及安裝Homebrew的動作，過程中間可能需要按個<code>enter</code>，安裝需要一段時間。</p><h2 id="安裝-Git"><a href="#安裝-Git" class="headerlink" title="安裝 Git"></a>安裝 Git</h2><p>再來使用剛剛安裝的Homebrew來安裝Git</p><p>也是使用終端機，執行以下指令：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew install git</div></pre></td></tr></table></figure></p><p>終端機執行Git的下載和安裝。</p><h2 id="安裝Node-js"><a href="#安裝Node-js" class="headerlink" title="安裝Node.js"></a>安裝Node.js</h2><p><a href="https://nodejs.org/en/" target="_blank" rel="external">Node.js</a>雖然有Homebrew的打包，但是不建議用它來安裝，建議是直接上官網下載來安裝，進入官網後可以下載LTS的版本來安裝。</p><h2 id="安裝Hexo"><a href="#安裝Hexo" class="headerlink" title="安裝Hexo"></a>安裝Hexo</h2><p>安裝完上述的套件後就可以來安裝Hexo了，一樣是在終端機上執行指令。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install -g hexo-cli</div></pre></td></tr></table></figure></p><p>這樣就完成了Hexo環境的安裝動作，下一篇再來講寫作環境及產生靜檔網站。</p>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;##什麼是Hexo？&lt;br&gt;&lt;a href=&quot;https://hexo.io/zh-tw/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt; 是一款網誌框架，使用Markdown來解析文章，可以快速生成靜態網頁的檔案，也就是本站使用的部落格框架。&lt;/p&gt;
-&lt;p&gt;##安裝需求&lt;/p&gt;
-&lt;ul&gt;
+      &lt;h2 id=&quot;什麼是Hexo？&quot;&gt;&lt;a href=&quot;#什麼是Hexo？&quot; class=&quot;headerlink&quot; title=&quot;什麼是Hexo？&quot;&gt;&lt;/a&gt;什麼是Hexo？&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://hexo.io/zh-tw/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt; 是一款網誌框架，使用Markdown來解析文章，可以快速生成靜態網頁的檔案，也就是本站使用的部落格框架。&lt;/p&gt;
+&lt;h2 id=&quot;安裝需求&quot;&gt;&lt;a href=&quot;#安裝需求&quot; class=&quot;headerlink&quot; title=&quot;安裝需求&quot;&gt;&lt;/a&gt;安裝需求&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;Homebrew&lt;/li&gt;
 &lt;li&gt;Git(Option)&lt;/li&gt;
 &lt;li&gt;Node.js
