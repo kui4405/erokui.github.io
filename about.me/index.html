@@ -271,7 +271,7 @@
 </ul>
 <h2 id="程式專案"><a href="#程式專案" class="headerlink" title="程式專案"></a>程式專案</h2><ul>
 <li><strong>[Arduino]</strong> 鴨舍溫濕度感測監控系統, 2015</li>
-<li><strong>[FPGA]</strong> <a href="https://youtu.be/D2KEQjuavqk" target="_blank" rel="nofollow noopener noreferrer">don’t stop running</a> (單機遊戲), 2014</li>
+<li><strong>[FPGA]</strong> <a href="https://www.youtube.com/embed/D2KEQjuavqk" class="fancybox fancybox.iframe">don’t stop running</a> (單機遊戲), 2014</li>
 </ul>
 <h2 id="晶片設計"><a href="#晶片設計" class="headerlink" title="晶片設計"></a>晶片設計</h2><ul>
 <li><strong>[U18]</strong> 應用於生醫之低雜訊放大器 function work</li>
@@ -293,7 +293,7 @@
 </ul>
 <hr>
 <h1 id="教學經驗"><a href="#教學經驗" class="headerlink" title="教學經驗"></a>教學經驗</h1><ul>
-<li>國立宜蘭大學 電子工程系 邏輯設計 助教, 2016.s1 <strong>（優良教學助理）</strong></li>
+<li>國立宜蘭大學 電子工程系 邏輯設計 助教, 2016.s1 <a href="http://irc.niu.edu.tw/files/14-1000-1431,r9-1.php" class="fancybox fancybox.iframe"><strong>（優良教學助理）</strong></a></li>
 <li>國立宜蘭大學 電子工程系 半導體物理 助教, 2016.s1</li>
 <li>國立宜蘭大學 電子工程系 機率與統計 助教, 2015.s1</li>
 <li>國立宜蘭大學 電子工程系 機率與統計 助教, 2014.s1</li>
@@ -558,7 +558,36 @@
   <script type="text/javascript" src="https://erokui.github.io/blog/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
 
 
+  <script type="text/javascript">
+  function onYouTubePlayerAPIReady() {
+    $(document).ready(function() {
+      $(".fancybox")
+        .fancybox({
+        padding     : 0,
+        beforeShow  : function() {
+          var frameid = $.fancybox.inner.find(‘iframe’).attr(‘id’);
+          var player = new YT.Player(frameid, {
+            events: {
+              ‘onReady': onPlayerReady,
+              ‘onStateChange': onPlayerStateChange
+            }
+          });
+        }
+      });
+      $(".fancybox").eq(0).trigger(‘click’);
+    });
+  }
 
+  function onPlayerReady(event) {
+    event.target.playVideo();
+  }
+
+  function onPlayerStateChange(event) {
+    if (event.data === 0) {
+      $.fancybox.close();
+    }
+  }
+  </script>
 
 
   <script type="text/javascript" src="https://erokui.github.io/blog/js/src/utils.js?v=5.1.3"></script>
