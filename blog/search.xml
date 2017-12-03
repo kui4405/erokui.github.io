@@ -1,21 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[macOS上安裝Hexo部落格環境]]></title>
-    <url>%2Fblog%2F2017%2F10%2F09%2Finstall-hexo-on-macOS%2F</url>
-    <content type="text"><![CDATA[什麼是Hexo？Hexo 是一款網誌框架，使用Markdown來解析文章，可以快速生成靜態網頁的檔案，也就是本站使用的部落格框架。 安裝需求 Homebrew Git(Option) Node.js 安裝 HomebrewHomebrew是一個OSX上一個用戶較多的軟件套件管理器。 首先打開終端機，並且執行以下指令：1/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot; 再來終端機會自動執行下載及安裝Homebrew的動作，過程中間可能需要按個enter，安裝需要一段時間。 安裝 Git再來使用剛剛安裝的Homebrew來安裝Git 也是使用終端機，執行以下指令：1brew install git 終端機執行Git的下載和安裝。 安裝Node.jsNode.js雖然有Homebrew的打包，但是不建議用它來安裝，建議是直接上官網下載來安裝，進入官網後可以下載LTS的版本來安裝。 安裝Hexo安裝完上述的套件後就可以來安裝Hexo了，一樣是在終端機上執行指令。1npm install -g hexo-cli 這樣就完成了Hexo環境的安裝動作，下一篇再來講寫作環境及產生靜檔網站。]]></content>
-      <categories>
-        <category>macOS</category>
-      </categories>
-      <tags>
-        <tag>macOS</tag>
-        <tag>homebrew</tag>
-        <tag>hexo</tag>
-        <tag>git</tag>
-        <tag>nodejs</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[macOS 裝機筆記]]></title>
     <url>%2Fblog%2F2017%2F10%2F08%2FmacOS%E8%A3%9D%E6%A9%9F%E7%AD%86%E8%A8%98%2F</url>
     <content type="text"><![CDATA[原來裝的OS（LMDE 2 Betsy）裝太多套件，硬碟一直出現不夠用的訊息，而且用類似auto clean的指令也沒有太多增加空間幫助，當初買128G的SSD，真的是不夠用呀～，加上我又懶的去一個一個找沒用的套件出來再刪掉，就選擇了砍掉重練 重灌系統的打算，加上友人又說『ㄟ～high sierra 要來了耶，要不要試試。』，就想說好阿，以前也有灌過hackintosh，應該很容易吧，結果才發現選了一個比找沒用套件出來還麻煩的選擇www，真是夠了，真不愧是我。想嘗試的碰友，可以先去tonymacx86了解一下自己的硬體適不適合裝黑蘋果。 要安裝hackintosh時發現現在安裝這玩意兒還蠻方便的，都有整合的工具，記得以前都還要自己找驅動阿，可是安裝完才發現，別太相信整合包阿，還是要像以前一樣先找好自己主機板的驅動，再來安裝會比較好，因為我安裝完的時候，沒顯卡、沒網卡、沒音效，簡直是杯具。驅動的部分可以到osx86尋找一下自己硬體的型號。 最後曬一下系統資訊，而為什麼不是high sierra，又是另一個折騰的故事了。]]></content>
